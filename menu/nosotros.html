@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,15 +13,29 @@
 </head>
 <body>
     <header>
-        <div class="container">
-            <p class="logo"><img src="../images/adg2.png" alt="" class="logo1"></p>
-            <nav>
-                <a href="./menu/soporte.html">SOPORTE</a>
-                <a href="">NOSOTROS</a>
-                <a href="">CONTACTO</a>
-
-            </nav>
-        </div>
+        <nav class="navbar navbar-expand-lg bg-dark">
+            <div class="container-fluid container">
+              <a class="navbar-brand" href="#"><img src="../images/adg2.png"" width="200px"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item p-2">
+                    <a class="nav-link active" aria-current="page" href="../menu/nosotros.html">nosotros</a>
+                  </li>
+                  <li class="nav-item p-2">
+                    <a class="nav-link" href="../menu/contacto.html">contacto</a>
+                  </li>
+                  
+                  <li class="nav-item p-2">
+                    <a class="nav-link" href="../menu/soporte.html">soporte</a>
+                  </li>
+                </ul>
+                
+              </div>
+            </div>
+        </nav>
     </header>    
             <article>
                 <h2>nosotros</h2>
@@ -29,7 +44,7 @@
                 <img src="../images/wer.jpg" alt="fiat" class="img--nos">
                 <img src="../images/fiat.jpg" alt="128" class="img--nos">
             </div>
-            <p class="par-nos">descripcion de empresa, como se creo, integrantes, etc Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia culpa reiciendis quis voluptate voluptas doloribus aliquam error vel cupiditate, ad alias temporibus labore atque impedit sed cumque. Perspiciatis, ipsa architecto.</p>
+            <p class="par-nos text-white bg-dark">descripcion de empresa, como se creo, integrantes, etc Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia culpa reiciendis quis voluptate voluptas doloribus aliquam error vel cupiditate, ad alias temporibus labore atque impedit sed cumque. Perspiciatis, ipsa architecto.</p>
             </article>
             
 
@@ -42,6 +57,6 @@
             </div>
         </footer>  
    
-    
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script> 
 </body>
 </html>
