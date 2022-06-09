@@ -1,0 +1,38 @@
+@media (min-width: 720px) {
+    header{
+        position: fixed;
+        width: 100%;
+    }
+    header .container{
+        flex-direction: row;
+        justify-content: flex-end;
+
+
+    }
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 5px;
+    }
+    #hero h1{
+        font-size: 4em;
+    }
+    #secciones .view{
+        display: flex;
+        justify-content: center;
+
+    }
+    #secciones p{
+        display: block;
+    }
+    #secciones .cartas{
+        padding: 15px;
+    }
+     .mapa1{
+        display: block;
+    }
+    .img--nos{
+        display: block;
+    }
+    
+}
