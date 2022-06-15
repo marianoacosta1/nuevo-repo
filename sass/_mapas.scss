@@ -1,0 +1,7 @@
+$footer: (
+    "contacto": red
+);
+
+.ftcontacto{
+    color: map-get($map: $footer, $key: contacto );
+}

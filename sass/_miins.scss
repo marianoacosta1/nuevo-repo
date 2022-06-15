@@ -1,0 +1,8 @@
+@mixin fontsize($size, $weight) {
+    font-size: $size;
+    font-weight: $weight;
+    
+}
+.letrapequenia {
+    @include fontsize(20px, 100);
+}

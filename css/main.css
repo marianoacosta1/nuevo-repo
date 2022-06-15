@@ -42,20 +42,17 @@ button:hover {
   background-color: #a5a4a4;
 }
 
-button
-header {
+button header {
   background-color: #0c0c0c;
 }
 
-button
-header .logo {
+button header .logo {
   color: #fafafa;
   margin: 0;
   padding: 25px 30px;
 }
 
-button
-header .container {
+button header .container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -70,13 +67,11 @@ header .container {
   margin: auto;
 }
 
-button
-header .logo1 {
+button header .logo1 {
   max-width: 250px;
 }
 
-button
-header nav {
+button header nav {
   background-color: black;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -89,15 +84,13 @@ header nav {
   padding-bottom: 25px;
 }
 
-button
-header a {
+button header a {
   font-size: 25px;
   padding: 5px 12px;
   text-decoration: none;
 }
 
-button
-header a:hover {
+button header a:hover {
   color: #949292;
 }
 
@@ -377,4 +370,23 @@ footer a:hover {
   .img--nos {
     display: block;
   }
+}
+
+.btnfooter, .btning {
+  text-align: center;
+  border-radius: 25px;
+  border: 1px solid white;
+}
+
+.btning {
+  background-color: #6d0efc;
+}
+
+.letrapequenia {
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.ftcontacto {
+  color: red;
 }

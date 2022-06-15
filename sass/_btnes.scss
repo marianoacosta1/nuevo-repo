@@ -1,0 +1,10 @@
+.btnfooter{
+    
+    text-align: center;
+    border-radius: 25px;
+    border: 1px solid white;
+}
+.btning{
+    @extend .btnfooter;
+    background-color: rgb(109, 14, 252);
+}
