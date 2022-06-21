@@ -7,10 +7,7 @@
 body {
   font-family: 'Koulen', cursive;
   margin: 0;
-  background-image: url(../images/fondo.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
+  background-color: #333333;
 }
 
 h1 {
@@ -145,7 +142,7 @@ button header a:hover {
 }
 
 #secciones .cartas {
-  padding: 40px;
+  padding: 100px;
   margin: 20px;
   border-radius: 15px;
 }
@@ -204,14 +201,23 @@ footer a:hover {
   color: #524c4c !important;
 }
 
+.form {
+  padding: 100px;
+}
+
+.fs-3 {
+  color: black;
+}
+
 .article.sop {
+  background-color: #333333;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 50px 50px;
+  padding: 500px 50px;
 }
 
 .input__mod {
@@ -262,7 +268,7 @@ footer a:hover {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-color: #333333;
+  background-color: #1c1c1c;
   border-radius: 4px;
   -webkit-transition: -webkit-transform 0.3s ease-in-out;
   transition: -webkit-transform 0.3s ease-in-out;
@@ -325,6 +331,14 @@ footer a:hover {
   background-color: #363636;
 }
 
+.art1 {
+  display: none;
+}
+
+.prtext {
+  color: black;
+}
+
 @media (min-width: 720px) {
   header {
     position: fixed;
@@ -362,12 +376,15 @@ footer a:hover {
     display: block;
   }
   #secciones .cartas {
-    padding: 15px;
+    padding: 150px;
   }
   .mapa1 {
     display: block;
   }
   .img--nos {
+    display: block;
+  }
+  .art1 {
     display: block;
   }
 }

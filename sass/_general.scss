@@ -8,11 +8,7 @@
 body{
     font-family: 'Koulen', cursive;
     margin: 0;
-    background-image: url(../images/fondo.jpg);
-    background-repeat: no-repeat;
-     background-size: cover;
-     background-position: center center;
-
+   background-color: #333333;
 }
 
 h1{
@@ -117,7 +113,7 @@ header{
         display: none;
     }
     .cartas{
-        padding: 40px;
+        padding: 100px;
         margin: 20px;
         border-radius: 15px;
     
@@ -186,12 +182,24 @@ footer{
     
 }
 
+.form{
+      padding: 100px;
+      
+}
+.fs-3{
+    color: rgb(0, 0, 0);
+    
+
+}
 
 
 .article.sop{
+    background-color: #333333;
+    
     display: flex;
     justify-content: center;
-    padding: 50px 50px;
+    padding: 500px 50px;
+
 }
 .input__mod{
     display: flex;
@@ -226,7 +234,7 @@ footer{
   align-items: center;
   justify-content: center;
 
-  background-color: #333333;
+  background-color: #1c1c1c;
   border-radius: 4px;
   transition: transform 0.3s ease-in-out;
 
@@ -275,4 +283,10 @@ footer{
        padding: 10px 50px;
        flex-basis: 100%;
        background-color: rgb(54, 54, 54);
+   }
+   .art1{
+    display: none;
+   }
+   .prtext{
+    color: black;
    }

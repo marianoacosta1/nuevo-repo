@@ -5,17 +5,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
-    <link rel="stylesheet" href="../estilos/styles.css">
+    <link rel="stylesheet" href="../css/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Koulen&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Koulen&display=swap" rel="stylesheet"> 
+    <meta name="description" 
+    content="Todo lo mejor para tu vehiculo en un solo lugar 10%OFF">
+    <meta name="keywords"
+    content="galvez, tc, picadas, accesosrios, competicion, respuestos" >
     <title>SOPORTE</title>
 </head>
 <body>
     <header>
         <nav class="navbar navbar-expand-lg bg-dark">
             <div class="container-fluid container">
-              <a class="navbar-brand" href="#"><img src="../images/adg2.png"" width="200px"></a>
+              <a class="navbar-brand" href="../index.html"><img src="../images/adg2.png"" width="200px"></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -38,40 +42,44 @@
         </nav>
     </header>
     <article class="article.sop">
+      <div class="form">
         <form action="" method="get"enctype=text/plain>
       <div class="input__mod">
-          <label for="name">nombre</label>
-          <input type="text" name="nombre" placeholder="nombre">
+          <label for="name" class="fs-3">nombre</label>
+          <input type="text" name="nombre" placeholder="nombre" class="fs-3">
       </div>
       <div class="input__mod">
-          <label for="surname">apellido</label>
-          <input type="text"name="apellido" placeholder="apellido">
+          <label for="surname" class="fs-3">apellido</label>
+          <input type="text"name="apellido" placeholder="apellido" class="fs-3">
       </div>
       <div  class="input__mod">
-          <label for="email">correo </label>
-          <input type="email" name="email" placeholder="nombre@gmail.com">
+          <label for="email" class="fs-3">correo </label>
+          <input type="email" name="email" placeholder="nombre@gmail.com" class="fs-3">
       </div>   
       <div  class="input__mod">
-          <label for="problem">indica su inconveniente</label>
-        <select name="problem" id="problem">
-          <option value="envio">no llego mi envio</option>
-          <option value="pro">producto defectuoso</option>
-          <option value="tec">quiero ayuda de un mecanico</option>
-          <option value="noe">no es lo que esperaba</option>
+          <label for="problem" class="fs-3">motivo</label>
+        <select name="problem" id="problem" class="fs-3">
+          <option value="envio" class="fs-3">no llego mi envio</option>
+          <option value="pro"  class="fs-3">producto defectuoso</option>
+          <option value="tec"  class="fs-3">quiero ayuda de un mecanico</option>
+          <option value="noe" class="fs-3" >no es lo que esperaba</option>
+          
         </select>
        </div>
-      <div  class="input__mod">
-         <label for="usertext">describa su problema</label>
+      <div  class="input__mod" class="fs-3">
+         <label for="usertext" class="fs-3">describa su problema</label>
+      
          <textarea name="usertext" id="usertext" cols="30" rows="10"></textarea>
       </div>
       <div  class="input__mod">
-         <label for="checkbox">acepto terminos y condiciones</label>
+         <label for="checkbox" class="fs-3">acepto terminos y condiciones</label>
          <input type="checkbox">
       </div>
       <div  class="input__mod">
-         <input type="submit"value="enviar">
-         <input type="reset"value="limpiar formulario">
+         <input type="submit"value="enviar" class="fs-3">
+         <input type="reset"value="limpiar formulario" class="fs-3">
       </div>
+    </div>
       </form>
   </article>
   <footer>
